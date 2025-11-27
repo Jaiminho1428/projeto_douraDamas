@@ -1,0 +1,93 @@
+<header class="cabecalho">
+	<div class="marca">
+		<h1>Doura Damas</h1>
+		<p class="slogan">Bronzeamento Natural — Elegância Dourada</p>
+	</div>
+
+	<nav class="nav-menu" aria-label="Navegação principal">
+		<a class="nav-link" [routerLink]="['/servicos']">Serviços</a>
+		<a class="nav-link" [routerLink]="['/saiba-mais']">Saiba mais</a>
+		<a class="nav-link" [routerLink]="['/contato']">Contato</a>
+	</nav>
+</header>
+
+<main class="conteudo">
+	<section class="introducao">
+		<h2>Bem-vinda ao Doura Damas</h2>
+		
+		<p>O bronzeamento natural que realça sua beleza com tons dourados e cuidado profissional.</p>
+	</section>
+
+	<section class="grid-cards" role="list" aria-label="Serviços de Bronzeamento">
+		<article class="card" role="listitem" tabindex="0" aria-labelledby="servico1">
+			<div class="card-imagem imagem-1" aria-hidden="true"></div>
+			
+			<div class="card-conteudo">
+				<h3 id="servico1">Bronze</h3>
+				<p>Acabamento dourado e natural.</p>
+			</div>
+			<div class="card-detalhes" aria-hidden="true">
+				<ul>
+					<li>Aplicação personalizada</li>
+					<li>Hidratação profunda</li>
+					<li>Toque fosco delicado</li>
+				</ul>
+			</div>
+			<a class="card-botao" role="button" [routerLink]="['/agendar']" [queryParams]="{ servico: 'Bronze' }">Agende Agora</a>
+		</article>
+
+		<article class="card" role="listitem" tabindex="0" aria-labelledby="servico2">
+			<div class="card-imagem imagem-2" aria-hidden="true">
+			</div>
+			<div class="card-conteudo">
+				<h3 id="servico2">Bronze Gelado</h3>
+				<p>Realce de pontos estratégicos para brilho sutil.</p>
+			</div>
+			<div class="card-detalhes" aria-hidden="true">
+				<ul>
+					<li>Destaques dourados</li>
+					<li>Perfeito para eventos</li>
+					<li>Resultado radiante</li>
+				</ul>
+			</div>
+			<a class="card-botao" role="button" [routerLink]="['/agendar']" [queryParams]="{ servico: 'Bronze Gelado' }">Agende Agora</a>
+		</article>
+
+		<article class="card" role="listitem" tabindex="0" aria-labelledby="servico3">
+			<div class="card-imagem imagem-3" aria-hidden="true">
+			</div>
+			<div class="card-conteudo">
+				<h3 id="servico3">Bronze Intenso</h3>
+				<p>Tom mais profundo mantendo naturalidade.</p>
+			</div>
+			<div class="card-detalhes" aria-hidden="true">
+				<ul>
+					<li>Longa duração</li>
+					<li>Camada gradual</li>
+					<li>Cuidados pós-aplicação</li>
+				</ul>
+			</div>
+			<a class="card-botao" role="button" [routerLink]="['/agendar']" [queryParams]="{ servico: 'Bronze Intenso' }">Agende Agora</a>
+		</article>
+
+		<article class="card" role="listitem" tabindex="0" aria-labelledby="servico4">
+			<div class="card-imagem imagem-4" aria-hidden="true"></div>
+			<div class="card-conteudo">
+				<h3 id="servico4">Bronze Suave</h3>
+				<p>Tom leve para peles sensíveis.</p>
+			</div>
+			<div class="card-detalhes" aria-hidden="true">
+				<ul>
+					<li>Fórmula suave</li>
+					<li>Indicado para todas as peles</li>
+					<li>Hidratação incluida</li>
+				</ul>
+			</div>
+			<a class="card-botao" role="button" [routerLink]="['/agendar']" [queryParams]="{ servico: 'Bronze Suave' }">Agende Agora</a>
+		</article>
+	</section>
+</main>
+
+<footer class="rodape">
+	<p>© Doura Damas — Bronzeamento Natural</p>
+</footer>

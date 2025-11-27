@@ -1,0 +1,33 @@
+<section class="pagina-agendar">
+	<h2>Agendar</h2>
+
+	<div class="campo">
+		<label>Serviço selecionado</label>
+		<input [value]="selecaoServico" readonly />
+	</div>
+
+	<div class="campo">
+		<label>Pacote</label>
+		<div class="pacotes">
+			<label *ngFor="let p of pacotes">
+				<input type="radio" name="pacote" [(ngModel)]="pacoteSelecionado" [value]="p.id" /> {{p.label}} — R$ {{p.price}}
+				<div class="info">{{p.info}}</div>
+			</label>
+		</div>
+	</div>
+
+	<div class="campo">
+		<label>Data</label>
+		<input type="date" [(ngModel)]="data" />
+	</div>
+
+	<button class="acao" (click)="agendar()">Agendar</button>
+
+	<div class="resumo" *ngIf="precoFinal !== null">
+		<p>Preço final: R$ {{ precoFinal?.toFixed(2) }}</p>
+	</div>
+
+	<div class="confirmacao" *ngIf="confirmacao">{{ confirmacao }}</div>
+
+	<a class="voltar" routerLink="/home">Voltar</a>
+</section>

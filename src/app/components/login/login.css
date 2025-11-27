@@ -1,0 +1,8 @@
+.pagina-login{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.login-card{width:100%;max-width:420px;background:#fff;padding:22px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.06);display:flex;flex-direction:column;gap:12px}
+.campo label{font-weight:600;margin-bottom:6px;display:block}
+.campo input{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e6e6}
+.acoes{display:flex;gap:10px;align-items:center}
+.acao{background:linear-gradient(90deg,#FFC857,#D89F2A);border:none;padding:10px 12px;border-radius:8px;color:#fff;font-weight:700;cursor:pointer}
+.link{background:transparent;border:none;color:#666;cursor:pointer;text-decoration:underline}
+.mensagem{color:#b00020;font-weight:600}

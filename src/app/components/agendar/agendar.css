@@ -1,0 +1,73 @@
+.pagina-agendar{
+    max-width:720px;
+    margin:22px auto;
+    padding:18px;
+    background:#fff;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    gap:12px
+}
+
+.campo label{
+    font-weight:600;
+    margin-bottom:6px;
+    display:block
+}
+
+.campo input{
+    padding:9px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    width:100%
+}
+
+.pacotes label{
+    display:block;
+    padding:8px;border-radius:8px;border:1px solid #eee;
+    margin-bottom:8px
+}
+
+.pacotes .info{
+    font-size:0.9rem;
+    color:#666;
+    margin-top:6px
+}
+
+.acao{
+    background:linear-gradient(90deg,#FFC857,#D89F2A);
+    border:none;padding:10px 14px;border-radius:8px;
+    color:#fff;font-weight:700;
+    cursor:pointer
+}
+
+.resumo{
+    background:#fff7e6;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #f0d9b3
+}
+
+.confirmacao{
+    margin-top:8px;
+    color:green;
+    
+}
+
+.voltar{
+    display:inline-block;
+    margin-top:14px;
+    color:#fff;
+    background:#D89F2A;
+    padding:10px 16px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    align-self:flex-start; 
+    transition:.25s ease;
+}
+
+.voltar:hover{
+    background:#b7841f;
+    transform:translateY(-2px);
+}

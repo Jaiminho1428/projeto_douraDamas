@@ -1,0 +1,34 @@
+<section class="pagina-login">
+  <div class="login-card">
+    <h2 *ngIf="!estaCadastrando">Entrar</h2>
+    <h2 *ngIf="estaCadastrando">Cadastrar</h2>
+
+    <div class="campo" *ngIf="estaCadastrando">
+      <label>Nome</label>
+      <input [(ngModel)]="nome" />
+    </div>
+
+    <div class="campo" *ngIf="estaCadastrando">
+      <label>Telefone</label>
+      <input [(ngModel)]="telefone" />
+    </div>
+
+    <div class="campo">
+      <label>Email</label>
+      <input [(ngModel)]="email" />
+    </div>
+
+    <div class="campo">
+      <label>Senha</label>
+      <input type="password" [(ngModel)]="senha" />
+    </div>
+
+    <div class="acoes">
+      <button class="acao" *ngIf="!estaCadastrando" (click)="entrar()">Entrar</button>
+      <button class="acao" *ngIf="estaCadastrando" (click)="cadastrar()">Cadastrar</button>
+      <button class="link" (click)="alternarCadastro()">{{ estaCadastrando ? 'Já tenho conta' : 'Criar conta' }}</button>
+    </div>
+
+    <div class="mensagem" *ngIf="mensagem">{{ mensagem }}</div>
+  </div>
+</section>
