@@ -21,8 +21,9 @@ export class Agendar implements OnInit {
 
 	pacotes = [
 		{ id: 'Basico', label: 'Básico', price: 80, info: 'Aplicação simples + hidratação' },
-		{ id: 'Premium', label: 'Básico + Doura pelos', price: 90, info: 'Camadas personalizadas + brilho'},
-		{ id: 'Evento', label: 'Neon', price: 200, info: 'Realce intenso e finalização' }
+		{ id: 'Doura', label: 'Básico + Doura pelos', price: 90, info: 'Camadas personalizadas + brilho'},
+		{ id: 'gold', label: 'Gold', price: 200, info: 'Realce intenso e finalização'}
+		
 	];
 
 	constructor(private route: ActivatedRoute, private router: Router) {}
