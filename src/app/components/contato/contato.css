@@ -1,12 +1,34 @@
-.pagina-contato{max-width:900px;margin:22px auto;padding:18px;background:transparent}
-.cards-contato{display:flex;gap:18px;flex-wrap:wrap}
-.card-contato{flex:1 1 300px;padding:18px;border-radius:12px;background:#fff;text-decoration:none;color:inherit;box-shadow:0 8px 24px rgba(0,0,0,0.06)}
-.card-contato h3{margin:0 0 6px;color:#D89F2A}
-.card-contato p{margin:0 0 8px;font-weight:700}
-.card-contato span{color:#666;font-size:0.95rem}
-.card-contato.instagram{border:1px solid rgba(255,100,150,0.06)}
-.card-contato.whatsapp{border:1px solid rgba(100,200,100,0.06)}
-.pagina-contato input, .pagina-contato textarea{width:100%;padding:8px;border-radius:6px;border:1px solid #ddd}
-.pagina-contato button{background:#D89F2A;color:#fff;border:none;padding:10px 12px;border-radius:8px;cursor:pointer}
-.confirmacao{margin-top:12px;color:green}
-.voltar{display:inline-block;margin-top:14px;color:#fff;background:#D89F2A;padding:8px 12px;border-radius:8px;text-decoration:none}
+.pagina-contato{
+    max-width:900px;margin:22px auto;padding:18px;background:transparent
+}
+.cards-contato{
+    display:flex;gap:18px;flex-wrap:wrap
+}
+.card-contato{
+    flex:1 1 300px;padding:18px;border-radius:12px;background:#fff;text-decoration:none;color:inherit;box-shadow:0 8px 24px rgba(0,0,0,0.06)
+}
+.card-contato h3{
+    margin:0 0 6px;color:#D89F2A}
+.card-contato p{margin:0 0 8px;font-weight:700
+}
+.card-contato span{
+    color:#666;font-size:0.95rem
+}
+.card-contato.instagram{
+    border:1px solid rgba(255,100,150,0.06)
+}
+.card-contato.whatsapp{
+    border:1px solid rgba(100,200,100,0.06)
+}
+.pagina-contato input, .pagina-contato textarea{
+    width:100%;padding:8px;border-radius:6px;border:1px solid #ddd
+}
+.pagina-contato button{
+    background:#D89F2A;color:#fff;border:none;padding:10px 12px;border-radius:8px;cursor:pointer
+}
+.confirmacao{
+    margin-top:12px;color:green
+}
+.voltar{
+    display:inline-block;margin-top:14px;color:#fff;background:#D89F2A;padding:8px 12px;border-radius:8px;text-decoration:none
+}

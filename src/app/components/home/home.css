@@ -13,7 +13,7 @@
 	font-family: 'Catamaran', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
-/* ======== LAYOUT ======== */
+
 :host {
 	display: block;
 	min-height: 100vh;
@@ -22,7 +22,6 @@
 	color: var(--texto);
 }
 
-/* ======== CABEÇALHO ======== */
 .cabecalho {
 	display: flex;
 	justify-content: space-between;
@@ -58,7 +57,6 @@
 	letter-spacing: .4px;
 }
 
-/* ======== BOTÃO DO CABEÇALHO ======== */
 .botao-acao {
 	background: linear-gradient(90deg, var(--rosa), #ff8db0);
 	color: var(--branco);
@@ -76,7 +74,7 @@
 	box-shadow: 0 14px 34px rgba(255,110,165,0.28);
 }
 
-/* ======== INTRODUÇÃO ======== */
+
 .introducao {
 	margin: 24px 0 32px;
 	padding: 20px;
@@ -103,7 +101,6 @@
 	font-size: 1.02rem;
 }
 
-/* ======== GRID DE SERVIÇOS ======== */
 .grid-cards {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -111,7 +108,7 @@
 	margin-bottom: 34px;
 }
 
-/* ======== CARDS ======== */
+
 .card {
 	background: var(--branco);
 	border-radius: 14px;
@@ -150,7 +147,7 @@
 	filter: saturate(1.08) brightness(1.05);
 }
 
-/* ======== TEXTOS DO CARD ======== */
+
 .card-conteudo h3 {
 	margin: 0 0 6px;
 	color: var(--dourado-escuro);
@@ -165,7 +162,7 @@
 	font-size: 0.96rem;
 }
 
-/* ======== DETALHES REVELADOS AO HOVER ======== */
+
 .card-detalhes {
 	margin-top: 10px;
 	opacity: 0;
@@ -183,7 +180,7 @@
 	max-height: 200px;
 }
 
-/* ======== BOTÃO DENTRO DO CARD ======== */
+
 .card-botao {
 	position: absolute;
 	right: 12px;
@@ -232,7 +229,7 @@
 		linear-gradient(135deg, rgba(255,190,60,0.9), rgba(212,175,55,0.06));
 }
 
-/* ======== RODAPÉ ======== */
+
 .rodape {
 	position: fixed;
 	left: 50%;
@@ -248,7 +245,7 @@
 	backdrop-filter: blur(5px);
 }
 
-/* ======== MENU ======== */
+
 .nav-menu {
 	display: flex;
 	gap: 12px;
@@ -269,7 +266,7 @@
 	transform: translateY(-3px);
 }
 
-/* ======== RESPONSIVIDADE ======== */
+
 @media (max-width: 760px) {
 	.nav-menu { gap: 8px; }
 	.nav-link { padding: 6px 8px; font-size: 0.95rem; }
